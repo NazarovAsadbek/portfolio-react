@@ -5,7 +5,7 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
-  heroTitleName: "steve milner",
+  heroTitleName: "nazarov asadbek",
   heroDesignation: "web designer",
   heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
