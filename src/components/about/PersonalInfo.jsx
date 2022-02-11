@@ -1,16 +1,14 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Steve" },
-  { meta: "last name", metaInfo: "Milner" },
-  { meta: "Age", metaInfo: "27 Years" },
-  { meta: "Nationality", metaInfo: "Tunisian" },
+  { meta: "first name", metaInfo: "Asadbek" },
+  { meta: "last name", metaInfo: "Nazarov" },
+  { meta: "Age", metaInfo: "21 Years" },
+  { meta: "Nationality", metaInfo: "Uigur" },
   { meta: "Freelance", metaInfo: "Available" },
-  { meta: "Address", metaInfo: "Tunis" },
-  { meta: "phone", metaInfo: "+21621184010" },
-  { meta: "Email", metaInfo: "you@mail.com" },
-  { meta: "Skype", metaInfo: " steve.milner" },
-  { meta: "langages", metaInfo: "French, English" },
+  { meta: "Address", metaInfo: "Tashkent" },
+  { meta: "phone", metaInfo: "+998(90)317 69 00" },
+  { meta: "Email", metaInfo: "mr.beka.2904 @mail.com" },
 ];
 
 const PersonalInfo = () => {
