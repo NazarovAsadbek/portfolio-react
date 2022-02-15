@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import DirectionReveal from "direction-reveal";
-import ModalOneContent from "./modal/ModalOneContent";
-import ModalTwoContent from "./modal/ModalTwoContent";
+import SelloUz from "./modal/sello-uz";
+import SelloPartners from "./modal/sello-partners";
 import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
-import ModalSevenContent from "./modal/ModalSevenContent";
+import Telegram from "./modal/telegram";
 import ModalEightContent from "./modal/ModalEightContent";
-import ModalNineContent from "./modal/ModalNineContent";
+import SelloLogistics from "./modal/sello-logistics";
 
 const PortfolioLight = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -91,11 +91,11 @@ const PortfolioLight = () => {
             {/* End close icon */}
 
             <div className="box_inner portfolio">
-              <ModalOneContent />
+              <SelloUz />
             </div>
           </div>
         </Modal>
-        {/* End  ModalOneContent */}
+        {/* End  SelloUz */}
       </li>
       {/* <!-- Portfolio Item Ends --> */}
 
@@ -108,7 +108,7 @@ const PortfolioLight = () => {
           </div>
         </figure>
 
-        {/* Start ModalTwoContent */}
+        {/* Start SelloPartners */}
         <Modal
           isOpen={isOpen2}
           onRequestClose={toggleModalTwo}
@@ -124,11 +124,11 @@ const PortfolioLight = () => {
             {/* End close icon */}
 
             <div className="box_inner portfolio">
-              <ModalTwoContent />
+              <SelloPartners />
             </div>
           </div>
         </Modal>
-        {/* End  ModalTwoContent */}
+        {/* End  SelloPartners */}
       </li>
       {/* <!-- Portfolio Item Ends --> */}
 
@@ -273,7 +273,7 @@ const PortfolioLight = () => {
           </div>
         </figure>
 
-        {/* Start ModalSevenContent */}
+        {/* Start Telegram */}
         <Modal
           isOpen={isOpen7}
           onRequestClose={toggleModalSeven}
@@ -289,11 +289,11 @@ const PortfolioLight = () => {
             {/* End close icon */}
 
             <div className="box_inner portfolio">
-              <ModalSevenContent />
+              <Telegram />
             </div>
           </div>
         </Modal>
-        {/* End  ModalSevenContent */}
+        {/* End  Telegram */}
       </li>
       {/* <!-- Portfolio Item Ends --> */}
 
@@ -338,7 +338,7 @@ const PortfolioLight = () => {
           </div>
         </figure>
 
-        {/* Start ModalNineContent */}
+        {/* Start SelloLogistics */}
         <Modal
           isOpen={isOpen9}
           onRequestClose={toggleModalNine}
@@ -354,11 +354,11 @@ const PortfolioLight = () => {
             {/* End close icon */}
 
             <div className="box_inner portfolio">
-              <ModalNineContent />
+              <SelloLogistics />
             </div>
           </div>
         </Modal>
-        {/* End  ModalNineContent */}
+        {/* End  SelloLogistics */}
       </li>
       {/* <!-- Portfolio Item Ends --> */}
     </ul>
