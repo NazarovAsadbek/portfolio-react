@@ -14,6 +14,8 @@ import TengeJuridicAdmin from "./modal/Tenge-juridic-admin";
 import TuneConsultingUz from "./modal/Tune-consulting-uz";
 import AwesomeCssElements from "./modal/Awesome-css-elements";
 import FoodTruck from "./modal/Food-truck";
+import OctaviaAdminTemplate from "./modal/Octavia-admin-template";
+import BonikTemplate from "./modal/Bonik-template";
 
 const Portfolio = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -512,6 +514,205 @@ const Portfolio = () => {
 
                                     <div className="box_inner portfolio">
                                         <TuneConsultingUz/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalTwelve}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> AWESOME CSS ELEMENTS</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen12}
+                                onRequestClose={toggleModalTwelve}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalTwelve}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <AwesomeCssElements/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalThirteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Food truck</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen13}
+                                onRequestClose={toggleModalThirteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalThirteen}>
+                                        toggleModalThirteen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <FoodTruck/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalFourteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-4.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> OCTAVIA VUE ADMIN TEMPLATE</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen14}
+                                onRequestClose={toggleModalFourteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalFourteen}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <OctaviaAdminTemplate/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalFiveteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> BONIK</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen15}
+                                onRequestClose={toggleModalFiveteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalFiveteen}>
+                                        toggleModalFiveteen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <BonikTemplate/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalSixteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> XAMIN TEMPLATE</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen16}
+                                onRequestClose={toggleModalSixteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSixteen}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <Telegram/>
                                     </div>
                                 </div>
                             </Modal>
@@ -1048,7 +1249,7 @@ const Portfolio = () => {
                                     {/* End close icon */}
 
                                     <div className="box_inner portfolio">
-                                        <Telegram/>
+                                        <OctaviaAdminTemplate/>
                                     </div>
                                 </div>
                             </Modal>
@@ -1064,31 +1265,31 @@ const Portfolio = () => {
                         >
                             <figure
                                 className="direction-reveal__card"
-                                onClick={toggleModalTen}
+                                onClick={toggleModalFiveteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Telegram Profile</span>
+                                    <span className="content-title"> BONIK</span>
                                 </div>
                             </figure>
 
                             {/* Start Telegram */}
                             <Modal
-                                isOpen={isOpen10}
-                                onRequestClose={toggleModalTen}
+                                isOpen={isOpen15}
+                                onRequestClose={toggleModalFiveteen}
                                 contentLabel="My dialog"
                                 className="custom-modal dark"
                                 overlayClassName="custom-overlay dark"
                                 closeTimeoutMS={500}
                             >
                                 <div>
-                                    <button className="close-modal" onClick={toggleModalSeven}>
-                                        toggleModalTen
+                                    <button className="close-modal" onClick={toggleModalFiveteen}>
+                                        toggleModalFiveteen
                                     </button>
                                     {/* End close icon */}
 
                                     <div className="box_inner portfolio">
-                                        <Telegram/>
+                                        <BonikTemplate/>
                                     </div>
                                 </div>
                             </Modal>
@@ -1104,65 +1305,25 @@ const Portfolio = () => {
                         >
                             <figure
                                 className="direction-reveal__card"
-                                onClick={toggleModalTen}
+                                onClick={toggleModalSixteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Telegram Profile</span>
+                                    <span className="content-title"> XAMIN TEMPLATE</span>
                                 </div>
                             </figure>
 
                             {/* Start Telegram */}
                             <Modal
-                                isOpen={isOpen10}
-                                onRequestClose={toggleModalTen}
+                                isOpen={isOpen16}
+                                onRequestClose={toggleModalSixteen}
                                 contentLabel="My dialog"
                                 className="custom-modal dark"
                                 overlayClassName="custom-overlay dark"
                                 closeTimeoutMS={500}
                             >
                                 <div>
-                                    <button className="close-modal" onClick={toggleModalSeven}>
-                                        toggleModalTen
-                                    </button>
-                                    {/* End close icon */}
-
-                                    <div className="box_inner portfolio">
-                                        <Telegram/>
-                                    </div>
-                                </div>
-                            </Modal>
-                            {/* End  Telegram */}
-                        </li>
-
-
-                        <li
-                            className="direction-reveal"
-                            data-aos="fade-right"
-                            data-aos-duration="1200"
-                            data-aos-delay="0"
-                        >
-                            <figure
-                                className="direction-reveal__card"
-                                onClick={toggleModalTen}
-                            >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
-                                <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Telegram Profile</span>
-                                </div>
-                            </figure>
-
-                            {/* Start Telegram */}
-                            <Modal
-                                isOpen={isOpen10}
-                                onRequestClose={toggleModalTen}
-                                contentLabel="My dialog"
-                                className="custom-modal dark"
-                                overlayClassName="custom-overlay dark"
-                                closeTimeoutMS={500}
-                            >
-                                <div>
-                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                    <button className="close-modal" onClick={toggleModalSixteen}>
                                         toggleModalTen
                                     </button>
                                     {/* End close icon */}
