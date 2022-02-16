@@ -1,21 +1,19 @@
 import React, {useState} from "react";
 import {Tab, Tabs, TabList, TabPanel} from "react-tabs";
 import Modal from "react-modal";
-import SelloUz from "./modal/sello-uz";
-import SelloPartners from "./modal/sello-partners";
-import ModalThreeContent from "./modal/ModalThreeContent";
-import ModalFourContent from "./modal/ModalFourContent";
-import ModalFiveContent from "./modal/ModalFiveContent";
-import ModalSixContent from "./modal/ModalSixContent";
-import Telegram from "./modal/telegram";
-import ModalEightContent from "./modal/ModalEightContent";
-import SelloLogistics from "./modal/sello-logistics";
-import ZiraatUz from "./modal/ziraat-uz";
-import ZiraatAdmin from "./modal/ziraat-admin";
-import ZiraatInstant from "./modal/ziraat-instant";
-import TengeUz from "./modal/tenge-uz";
-import TengePhysicalAdmin from "./modal/tenge-physical-admin";
-import TengeJuridicAdmin from "./modal/tenge-juridic-admin";
+import SelloUz from "./modal/Sello-uz";
+import SelloPartners from "./modal/Sello-partners";
+import Telegram from "./modal/Telegram";
+import SelloLogistics from "./modal/Sello-logistics";
+import ZiraatUz from "./modal/Ziraat-uz";
+import ZiraatAdmin from "./modal/Ziraat-admin";
+import ZiraatInstant from "./modal/Ziraat-instant";
+import TengeUz from "./modal/Tenge-uz";
+import TengePhysicalAdmin from "./modal/Tenge-physical-admin";
+import TengeJuridicAdmin from "./modal/Tenge-juridic-admin";
+import TuneConsultingUz from "./modal/Tune-consulting-uz";
+import AwesomeCssElements from "./modal/Awesome-css-elements";
+import FoodTruck from "./modal/Food-truck";
 
 const Portfolio = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +26,12 @@ const Portfolio = () => {
     const [isOpen8, setIsOpen8] = useState(false);
     const [isOpen9, setIsOpen9] = useState(false);
     const [isOpen10, setIsOpen10] = useState(false);
+    const [isOpen11, setIsOpen11] = useState(false);
+    const [isOpen12, setIsOpen12] = useState(false);
+    const [isOpen13, setIsOpen13] = useState(false);
+    const [isOpen14, setIsOpen14] = useState(false);
+    const [isOpen15, setIsOpen15] = useState(false);
+    const [isOpen16, setIsOpen16] = useState(false);
 
     function toggleModalOne() {
         setIsOpen(!isOpen);
@@ -67,6 +71,30 @@ const Portfolio = () => {
 
     function toggleModalTen() {
         setIsOpen10(!isOpen10);
+    }
+
+    function toggleModalEleven() {
+        setIsOpen11(!isOpen11);
+    }
+
+    function toggleModalTwelve() {
+        setIsOpen12(!isOpen12);
+    }
+
+    function toggleModalThirteen() {
+        setIsOpen13(!isOpen13);
+    }
+
+    function toggleModalFourteen() {
+        setIsOpen14(!isOpen14);
+    }
+
+    function toggleModalFiveteen() {
+        setIsOpen15(!isOpen15);
+    }
+
+    function toggleModalSixteen() {
+        setIsOpen16(!isOpen16);
     }
 
     return (
@@ -450,6 +478,45 @@ const Portfolio = () => {
                             </Modal>
                             {/* End  Telegram */}
                         </li>
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalEleven}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> TUNE CONSULTING</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen11}
+                                onRequestClose={toggleModalEleven}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalEleven}>
+                                        toggleModalEleven
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <TuneConsultingUz/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
                         {/* <!-- Portfolio Item Ends --> */}
                     </ul>
                 </TabPanel>
@@ -491,8 +558,7 @@ const Portfolio = () => {
                             </Modal>
                             {/* End  SelloUz */}
                         </li>
-                        {/* <!-- Portfolio Item Ends --> */}
-                        {/* <!-- Portfolio Item Starts --> */}
+
                         <li
                             className="direction-reveal"
                             data-aos="fade-right"
@@ -501,7 +567,7 @@ const Portfolio = () => {
                         >
                             <figure
                                 className="direction-reveal__card"
-                                onClick={toggleModalNine}
+                                onClick={toggleModalTwo}
                             >
                                 <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
@@ -510,6 +576,258 @@ const Portfolio = () => {
                             </figure>
 
                             {/* Start SelloLogistics */}
+                            <Modal
+                                isOpen={isOpen2}
+                                onRequestClose={toggleModalTwo}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalTwo}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <SelloLogistics/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  SelloLogistics */}
+                        </li>
+
+                        <li
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="100"
+                        >
+                            <figure onClick={toggleModalThree}>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Sello partners</span>
+                                </div>
+                            </figure>
+
+                            {/*Start SelloPartners*/}
+                            <Modal
+                                isOpen={isOpen3}
+                                onRequestClose={toggleModalThree}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalThree}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <SelloPartners/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/*End  SelloPartners*/}
+                        </li>
+                        {/* <!-- Portfolio Item Ends --> */}
+
+
+                        {/* <!-- Portfolio Item Starts --> */}
+                        <li
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure onClick={toggleModalFour}>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title">Ziraat bank Uzbekistan</span>
+                                </div>
+                            </figure>
+
+                            <Modal
+                                isOpen={isOpen4}
+                                onRequestClose={toggleModalFour}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalFour}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <ZiraatUz/>
+                                    </div>
+                                </div>
+                            </Modal>
+                        </li>
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="200"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalFive}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Ziraat bank admin panel</span>
+                                </div>
+                            </figure>
+
+                            {/* Start SelloLogistics */}
+                            <Modal
+                                isOpen={isOpen5}
+                                onRequestClose={toggleModalFive}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalFive}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <ZiraatAdmin/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  SelloLogistics */}
+                        </li>
+
+
+                        <li
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="100"
+                        >
+                            <figure onClick={toggleModalSix}>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Ziraat Bank Instant Payments</span>
+                                </div>
+                            </figure>
+
+                            <Modal
+                                isOpen={isOpen6}
+                                onRequestClose={toggleModalSix}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSix}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <ZiraatInstant/>
+                                    </div>
+                                </div>
+                            </Modal>
+                        </li>
+                        {/* <!-- Portfolio Item Ends --> */}
+
+
+                        {/* <!-- Portfolio Item Starts --> */}
+                        <li
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure onClick={toggleModalSeven}>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title">Tenge Bank website for legal entities</span>
+                                </div>
+                            </figure>
+
+                            {/* Start SelloUz */}
+                            <Modal
+                                isOpen={isOpen7}
+                                onRequestClose={toggleModalSeven}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <TengeUz/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  SelloUz */}
+                        </li>
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="200"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalEight}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Tenge Bank Physical admin</span>
+                                </div>
+                            </figure>
+                            <Modal
+                                isOpen={isOpen8}
+                                onRequestClose={toggleModalEight}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalEight}>
+                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    </button>
+
+                                    <div className="box_inner portfolio">
+                                        <TengePhysicalAdmin/>
+                                    </div>
+                                </div>
+                            </Modal>
+                        </li>
+
+                        <li
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="100"
+                        >
+                            <figure onClick={toggleModalNine}>
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Tenge Bank Juridic Admin</span>
+                                </div>
+                            </figure>
+
+                            {/*Start SelloPartners*/}
                             <Modal
                                 isOpen={isOpen9}
                                 onRequestClose={toggleModalNine}
@@ -525,52 +843,51 @@ const Portfolio = () => {
                                     {/* End close icon */}
 
                                     <div className="box_inner portfolio">
-                                        <SelloLogistics/>
+                                        <TengeJuridicAdmin/>
                                     </div>
                                 </div>
                             </Modal>
-                            {/* End  SelloLogistics */}
+                            {/*End  SelloPartners*/}
                         </li>
-                        {/* <!-- Portfolio Item Ends --> */}
-                        {/* <!-- Portfolio Item Starts --> */}
-                        {/*<li*/}
-                        {/*    className="direction-reveal"*/}
-                        {/*    data-aos="fade-right"*/}
-                        {/*    data-aos-duration="1200"*/}
-                        {/*    data-aos-delay="200"*/}
-                        {/*>*/}
-                        {/*  <figure*/}
-                        {/*      className="direction-reveal__card"*/}
-                        {/*      onClick={toggleModalSix}*/}
-                        {/*  >*/}
-                        {/*    <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio" />*/}
-                        {/*    <div className=" hover-content-wrapper">*/}
-                        {/*      <span className="content-title">Sello.uz</span>*/}
-                        {/*    </div>*/}
-                        {/*  </figure>*/}
 
-                        {/* Start ModalSixContent */}
-                        {/*<Modal*/}
-                        {/*    isOpen={isOpen6}*/}
-                        {/*    onRequestClose={toggleModalSix}*/}
-                        {/*    contentLabel="My dialog"*/}
-                        {/*    className="custom-modal dark"*/}
-                        {/*    overlayClassName="custom-overlay dark"*/}
-                        {/*    closeTimeoutMS={500}*/}
-                        {/*>*/}
-                        {/*  <div>*/}
-                        {/*    <button className="close-modal" onClick={toggleModalSix}>*/}
-                        {/*      <img src="/img/cancel.svg" alt="close icon" />*/}
-                        {/*    </button>*/}
-                        {/*    /!* End close icon *!/*/}
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalEleven}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> TUNE CONSULTING</span>
+                                </div>
+                            </figure>
 
-                        {/*    <div className="box_inner portfolio">*/}
-                        {/*      <ModalSixContent />*/}
-                        {/*    </div>*/}
-                        {/*  </div>*/}
-                        {/*</Modal>*/}
-                        {/* End  ModalSixContent */}
-                        {/*</li>*/}
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen11}
+                                onRequestClose={toggleModalEleven}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalEleven}>
+                                        toggleModalEleven
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <TuneConsultingUz/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
                         {/* <!-- Portfolio Item Ends --> */}
                     </ul>
                 </TabPanel>
@@ -605,8 +922,8 @@ const Portfolio = () => {
                                 closeTimeoutMS={500}
                             >
                                 <div>
-                                    <button className="close-modal" onClick={toggleModalTen}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                        toggleModalTen
                                     </button>
                                     {/* End close icon */}
 
@@ -617,128 +934,247 @@ const Portfolio = () => {
                             </Modal>
                             {/* End  Telegram */}
                         </li>
-                        {/* <!-- Portfolio Item Ends --> */}
-                        {/* <!-- Portfolio Item Starts --> */}
-                        {/*<li*/}
-                        {/*  className="direction-reveal"*/}
-                        {/*  data-aos="fade-right"*/}
-                        {/*  data-aos-duration="1200"*/}
-                        {/*  data-aos-delay="0"*/}
-                        {/*>*/}
-                        {/*  <figure*/}
-                        {/*    className="direction-reveal__card"*/}
-                        {/*    onClick={toggleModalFour}*/}
-                        {/*  >*/}
-                        {/*    <img src="https://tunis.ibthemespro.com/img/projects/project-4.jpg" alt="Portolio" />*/}
-                        {/*    <div className=" hover-content-wrapper">*/}
-                        {/*      <span className="content-title"> Local Video Project</span>*/}
-                        {/*    </div>*/}
-                        {/*  </figure>*/}
 
-                        {/* Start ModalFourContent */}
-                        {/*<Modal*/}
-                        {/*  isOpen={isOpen4}*/}
-                        {/*  onRequestClose={toggleModalFour}*/}
-                        {/*  contentLabel="My dialog"*/}
-                        {/*  className="custom-modal dark"*/}
-                        {/*  overlayClassName="custom-overlay dark"*/}
-                        {/*  closeTimeoutMS={500}*/}
-                        {/*>*/}
-                        {/*  <div>*/}
-                        {/*    <button className="close-modal" onClick={toggleModalFour}>*/}
-                        {/*      <img src="/img/cancel.svg" alt="close icon" />*/}
-                        {/*    </button>*/}
-                        {/*    /!* End close icon *!/*/}
 
-                        {/*    <div className="box_inner portfolio">*/}
-                        {/*      <ModalFourContent />*/}
-                        {/*    </div>*/}
-                        {/*  </div>*/}
-                        {/*</Modal>*/}
-                        {/* End  ModalFourContent */}
-                        {/*</li>*/}
-                        {/* <!-- Portfolio Item Ends --> */}
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalTwelve}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> AWESOME CSS ELEMENTS</span>
+                                </div>
+                            </figure>
 
-                        {/* <!-- Portfolio Item Starts --> */}
-                        {/*<li*/}
-                        {/*  className="direction-reveal"*/}
-                        {/*  data-aos="fade-right"*/}
-                        {/*  data-aos-duration="1200"*/}
-                        {/*  data-aos-delay="100"*/}
-                        {/*>*/}
-                        {/*  <figure*/}
-                        {/*    className="direction-reveal__card"*/}
-                        {/*    onClick={toggleModalFive}*/}
-                        {/*  >*/}
-                        {/*    <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio" />*/}
-                        {/*    <div className=" hover-content-wrapper">*/}
-                        {/*      <span className="content-title"> Saas App Project</span>*/}
-                        {/*    </div>*/}
-                        {/*  </figure>*/}
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen12}
+                                onRequestClose={toggleModalTwelve}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalTwelve}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
 
-                        {/* Start ModalFiveContent */}
-                        {/*<Modal*/}
-                        {/*  isOpen={isOpen5}*/}
-                        {/*  onRequestClose={toggleModalFive}*/}
-                        {/*  contentLabel="My dialog"*/}
-                        {/*  className="custom-modal dark"*/}
-                        {/*  overlayClassName="custom-overlay dark"*/}
-                        {/*  closeTimeoutMS={500}*/}
-                        {/*>*/}
-                        {/*  <div>*/}
-                        {/*    <button className="close-modal" onClick={toggleModalFive}>*/}
-                        {/*      <img src="/img/cancel.svg" alt="close icon" />*/}
-                        {/*    </button>*/}
-                        {/*    /!* End close icon *!/*/}
+                                    <div className="box_inner portfolio">
+                                        <AwesomeCssElements/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
 
-                        {/*    <div className="box_inner portfolio">*/}
-                        {/*      <ModalFiveContent />*/}
-                        {/*    </div>*/}
-                        {/*  </div>*/}
-                        {/*</Modal>*/}
-                        {/* End  ModalFiveContent */}
-                        {/*</li>*/}
-                        {/* <!-- Portfolio Item Ends --> */}
 
-                        {/* <!-- Portfolio Item Starts --> */}
-                        {/*<li*/}
-                        {/*  className="direction-reveal"*/}
-                        {/*  data-aos="fade-right"*/}
-                        {/*  data-aos-duration="1200"*/}
-                        {/*  data-aos-delay="200"*/}
-                        {/*>*/}
-                        {/*  <figure*/}
-                        {/*    className="direction-reveal__card"*/}
-                        {/*    onClick={toggleModalSix}*/}
-                        {/*  >*/}
-                        {/*    <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio" />*/}
-                        {/*    <div className=" hover-content-wrapper">*/}
-                        {/*      <span className="content-title">Sello.uz</span>*/}
-                        {/*    </div>*/}
-                        {/*  </figure>*/}
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalThirteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Food truck</span>
+                                </div>
+                            </figure>
 
-                        {/* Start ModalSixContent */}
-                        {/*<Modal*/}
-                        {/*  isOpen={isOpen6}*/}
-                        {/*  onRequestClose={toggleModalSix}*/}
-                        {/*  contentLabel="My dialog"*/}
-                        {/*  className="custom-modal dark"*/}
-                        {/*  overlayClassName="custom-overlay dark"*/}
-                        {/*  closeTimeoutMS={500}*/}
-                        {/*>*/}
-                        {/*  <div>*/}
-                        {/*    <button className="close-modal" onClick={toggleModalSix}>*/}
-                        {/*      <img src="/img/cancel.svg" alt="close icon" />*/}
-                        {/*    </button>*/}
-                        {/*    /!* End close icon *!/*/}
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen13}
+                                onRequestClose={toggleModalThirteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalThirteen}>
+                                        toggleModalThirteen
+                                    </button>
+                                    {/* End close icon */}
 
-                        {/*    <div className="box_inner portfolio">*/}
-                        {/*      <ModalSixContent />*/}
-                        {/*    </div>*/}
-                        {/*  </div>*/}
-                        {/*</Modal>*/}
-                        {/* End  ModalSixContent */}
-                        {/*</li>*/}
+                                    <div className="box_inner portfolio">
+                                        <FoodTruck/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalFourteen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-4.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> OCTAVIA VUE ADMIN TEMPLATE</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen14}
+                                onRequestClose={toggleModalFourteen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalFourteen}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <Telegram/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalTen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Telegram Profile</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen10}
+                                onRequestClose={toggleModalTen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <Telegram/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalTen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Telegram Profile</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen10}
+                                onRequestClose={toggleModalTen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <Telegram/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
+
+                        <li
+                            className="direction-reveal"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                            data-aos-delay="0"
+                        >
+                            <figure
+                                className="direction-reveal__card"
+                                onClick={toggleModalTen}
+                            >
+                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <div className=" hover-content-wrapper">
+                                    <span className="content-title"> Telegram Profile</span>
+                                </div>
+                            </figure>
+
+                            {/* Start Telegram */}
+                            <Modal
+                                isOpen={isOpen10}
+                                onRequestClose={toggleModalTen}
+                                contentLabel="My dialog"
+                                className="custom-modal dark"
+                                overlayClassName="custom-overlay dark"
+                                closeTimeoutMS={500}
+                            >
+                                <div>
+                                    <button className="close-modal" onClick={toggleModalSeven}>
+                                        toggleModalTen
+                                    </button>
+                                    {/* End close icon */}
+
+                                    <div className="box_inner portfolio">
+                                        <Telegram/>
+                                    </div>
+                                </div>
+                            </Modal>
+                            {/* End  Telegram */}
+                        </li>
+
                         {/* <!-- Portfolio Item Ends --> */}
                     </ul>
                 </TabPanel>

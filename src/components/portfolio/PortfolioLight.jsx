@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import DirectionReveal from "direction-reveal";
-import SelloUz from "./modal/sello-uz";
-import SelloPartners from "./modal/sello-partners";
+import SelloUz from "./modal/Sello-uz";
+import SelloPartners from "./modal/Sello-partners";
 import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
-import Telegram from "./modal/telegram";
+import Telegram from "./modal/Telegram";
 import ModalEightContent from "./modal/ModalEightContent";
-import SelloLogistics from "./modal/sello-logistics";
+import SelloLogistics from "./modal/Sello-logistics";
 
 const PortfolioLight = () => {
   const [isOpen, setIsOpen] = useState(false);
