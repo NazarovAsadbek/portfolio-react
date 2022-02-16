@@ -13,7 +13,7 @@ const Routes = () => {
         <ScrollTopBehaviour />
         <Switch>
           {/*<Route exact path="/" component={Preview} />*/}
-          <Route exact path="/portfolio/" component={HomeDark} />
+          <Route exact path="/portfolio-react/" component={HomeDark} />
           <Route path="/home-light" component={HomeLight} />
           {/*<Route path="/home-dark" component={HomeDark} />*/}
           <Route component={NotFound} />
