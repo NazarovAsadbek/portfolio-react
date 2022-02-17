@@ -49,7 +49,7 @@ const SelloUz = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-1.jpg" alt="Portolio" />
+        <img src="img/projects/awesome-css-elements.png" alt="awesome-css-elements" />
         {/* Main Project Content Ends */}
       </figure>
     </div>
