@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b97dcf39.chunk.css",
-    "main.js": "/static/js/main.c660ff63.chunk.js",
-    "main.js.map": "/static/js/main.c660ff63.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f157758a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f157758a.js.map",
-    "static/css/2.9833d82f.chunk.css": "/static/css/2.9833d82f.chunk.css",
-    "static/js/2.f8d5f96b.chunk.js": "/static/js/2.f8d5f96b.chunk.js",
-    "static/js/2.f8d5f96b.chunk.js.map": "/static/js/2.f8d5f96b.chunk.js.map",
-    "static/js/3.6e62bc50.chunk.js": "/static/js/3.6e62bc50.chunk.js",
-    "static/js/3.6e62bc50.chunk.js.map": "/static/js/3.6e62bc50.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.9833d82f.chunk.css.map": "/static/css/2.9833d82f.chunk.css.map",
-    "static/css/main.b97dcf39.chunk.css.map": "/static/css/main.b97dcf39.chunk.css.map",
-    "static/js/2.f8d5f96b.chunk.js.LICENSE.txt": "/static/js/2.f8d5f96b.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
+    "main.css": "/portfolio-react/static/css/main.8c1fe41b.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.73714584.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.73714584.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.d5e6e24e.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.d5e6e24e.js.map",
+    "static/css/2.26d2d2e4.chunk.css": "/portfolio-react/static/css/2.26d2d2e4.chunk.css",
+    "static/js/2.f8d5f96b.chunk.js": "/portfolio-react/static/js/2.f8d5f96b.chunk.js",
+    "static/js/2.f8d5f96b.chunk.js.map": "/portfolio-react/static/js/2.f8d5f96b.chunk.js.map",
+    "static/js/3.6e62bc50.chunk.js": "/portfolio-react/static/js/3.6e62bc50.chunk.js",
+    "static/js/3.6e62bc50.chunk.js.map": "/portfolio-react/static/js/3.6e62bc50.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/2.26d2d2e4.chunk.css.map": "/portfolio-react/static/css/2.26d2d2e4.chunk.css.map",
+    "static/css/main.8c1fe41b.chunk.css.map": "/portfolio-react/static/css/main.8c1fe41b.chunk.css.map",
+    "static/js/2.f8d5f96b.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f8d5f96b.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/portfolio-react/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/slick-theme.css": "/portfolio-react/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f157758a.js",
-    "static/css/2.9833d82f.chunk.css",
+    "static/js/runtime-main.d5e6e24e.js",
+    "static/css/2.26d2d2e4.chunk.css",
     "static/js/2.f8d5f96b.chunk.js",
-    "static/css/main.b97dcf39.chunk.css",
-    "static/js/main.c660ff63.chunk.js"
+    "static/css/main.8c1fe41b.chunk.css",
+    "static/js/main.73714584.chunk.js"
   ]
 }
