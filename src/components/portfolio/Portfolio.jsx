@@ -16,6 +16,7 @@ import AwesomeCssElements from "./modal/Awesome-css-elements";
 import FoodTruck from "./modal/Food-truck";
 import OctaviaAdminTemplate from "./modal/Octavia-admin-template";
 import BonikTemplate from "./modal/Bonik-template";
+import XaminTemplate from "./modal/Xamin-template";
 
 const Portfolio = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -713,7 +714,7 @@ const Portfolio = () => {
                                     {/* End close icon */}
 
                                     <div className="box_inner portfolio">
-                                        <Telegram/>
+                                        <XaminTemplate/>
                                     </div>
                                 </div>
                             </Modal>
@@ -1330,7 +1331,7 @@ const Portfolio = () => {
                                     {/* End close icon */}
 
                                     <div className="box_inner portfolio">
-                                        <Telegram/>
+                                        <XaminTemplate/>
                                     </div>
                                 </div>
                             </Modal>
