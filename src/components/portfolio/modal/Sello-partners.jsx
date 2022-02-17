@@ -57,7 +57,7 @@ const SelloPartners = () => {
         {/*    allowFullScreen*/}
         {/*  ></iframe>*/}
         {/*</div>*/}
-        <img src="img/projects/project-9.jpg" alt="Portolio" />
+        <img src="img/projects/sello-partners.png" alt="Sello partners" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

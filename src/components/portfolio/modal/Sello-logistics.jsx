@@ -49,7 +49,7 @@ const SelloLogistics = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-9.jpg" alt="Portolio" />
+        <img src="img/projects/sello-logistics.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>
