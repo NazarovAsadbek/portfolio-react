@@ -49,7 +49,7 @@ const SelloUz = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://data.terabox.com/thumbnail/0d606a51798af268916917a537df369f?fid=436486862-250528-77446328789670&time=1645023600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-wJa0OexyjAhyUBfC01l5Ik1SCnI%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=9159835433514516843&dp-callid=0&size=c1600_u1600&quality=100&vuk=-&ft=video" alt="Portolio" />
+        <img src="img/projects/sello-uz.png" alt="Sello.uz" />
         {/* Main Project Content Ends */}
       </figure>
     </div>
