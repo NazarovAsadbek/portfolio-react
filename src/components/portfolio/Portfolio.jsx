@@ -121,7 +121,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalOne}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Sello.uz</span>
                                 </div>
@@ -139,7 +139,7 @@ const Portfolio = () => {
                                 <div>
                                     <button className="close-modal" onClick={toggleModalOne}>
                                         &#10060;
-                                        {/*<img src="/img/cancel.svg" alt="close icon"/>*/}
+                                        {/*<img src="img/cancel.svg" alt="close icon"/>*/}
                                     </button>
                                     {/* End close icon */}
 
@@ -161,7 +161,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTwo}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-logistics.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Sello logistics</span>
                                 </div>
@@ -178,7 +178,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalTwo}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -196,7 +196,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalThree}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-partners.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Sello partners</span>
                                 </div>
@@ -213,7 +213,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalThree}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -234,7 +234,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalFour}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Ziraat bank Uzbekistan</span>
                                 </div>
@@ -250,7 +250,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalFour}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -271,7 +271,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFive}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-admin.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Ziraat bank admin panel</span>
                                 </div>
@@ -288,7 +288,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalFive}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -307,7 +307,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalSix}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-instant.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Ziraat Bank Instant Payments</span>
                                 </div>
@@ -323,7 +323,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalSix}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -343,7 +343,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalSeven}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Tenge Bank website for legal entities</span>
                                 </div>
@@ -360,7 +360,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalSeven}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -382,7 +382,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalEight}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-physical.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Tenge Bank Physical admin</span>
                                 </div>
@@ -397,7 +397,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalEight}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
 
                                     <div className="box_inner portfolio">
@@ -413,7 +413,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalNine}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-jurdic.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Tenge Bank Juridic Admin</span>
                                 </div>
@@ -430,7 +430,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalNine}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -454,7 +454,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <img src="img/projects/telegramm.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Telegram Profile</span>
                                 </div>
@@ -493,7 +493,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalEleven}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <img src="img/projects/tune-cinsulting.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> TUNE CONSULTING</span>
                                 </div>
@@ -532,7 +532,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTwelve}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/awesome-css-elements.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> AWESOME CSS ELEMENTS</span>
                                 </div>
@@ -572,7 +572,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalThirteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/food-truck.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Food truck</span>
                                 </div>
@@ -612,7 +612,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFourteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-4.jpg" alt="Portolio"/>
+                                <img src="img/projects/Octavia.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> OCTAVIA VUE ADMIN TEMPLATE</span>
                                 </div>
@@ -652,7 +652,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFiveteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <img src="img/projects/bonik.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> BONIK</span>
                                 </div>
@@ -692,7 +692,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalSixteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/xamin.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> XAMIN TEMPLATE</span>
                                 </div>
@@ -733,7 +733,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalOne}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Sello.uz</span>
                                 </div>
@@ -750,7 +750,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalOne}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -772,7 +772,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTwo}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-logistics.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Sello logistics</span>
                                 </div>
@@ -789,7 +789,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalTwo}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -807,7 +807,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalThree}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/sello-partners.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Sello partners</span>
                                 </div>
@@ -824,7 +824,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalThree}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -845,7 +845,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalFour}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Ziraat bank Uzbekistan</span>
                                 </div>
@@ -861,7 +861,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalFour}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -882,7 +882,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFive}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-admin.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Ziraat bank admin panel</span>
                                 </div>
@@ -899,7 +899,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalFive}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -918,7 +918,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalSix}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/ziraatbank-instant.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Ziraat Bank Instant Payments</span>
                                 </div>
@@ -934,7 +934,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalSix}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -954,7 +954,7 @@ const Portfolio = () => {
                             data-aos-delay="0"
                         >
                             <figure onClick={toggleModalSeven}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-uz.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title">Tenge Bank website for legal entities</span>
                                 </div>
@@ -971,7 +971,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalSeven}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -993,7 +993,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalEight}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-physical.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Tenge Bank Physical admin</span>
                                 </div>
@@ -1008,7 +1008,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalEight}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
 
                                     <div className="box_inner portfolio">
@@ -1024,7 +1024,7 @@ const Portfolio = () => {
                             data-aos-delay="100"
                         >
                             <figure onClick={toggleModalNine}>
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/tenge-jurdic.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Tenge Bank Juridic Admin</span>
                                 </div>
@@ -1041,7 +1041,7 @@ const Portfolio = () => {
                             >
                                 <div>
                                     <button className="close-modal" onClick={toggleModalNine}>
-                                        <img src="/img/cancel.svg" alt="close icon"/>
+                                        <img src="img/cancel.svg" alt="close icon"/>
                                     </button>
                                     {/* End close icon */}
 
@@ -1063,7 +1063,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalEleven}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <img src="img/projects/tune-cinsulting.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> TUNE CONSULTING</span>
                                 </div>
@@ -1109,7 +1109,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-9.jpg" alt="Portolio"/>
+                                <img src="img/projects/telegramm.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Telegram Profile</span>
                                 </div>
@@ -1149,7 +1149,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalTwelve}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-1.jpg" alt="Portolio"/>
+                                <img src="img/projects/awesome-css-elements.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> AWESOME CSS ELEMENTS</span>
                                 </div>
@@ -1189,7 +1189,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalThirteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-2.jpg" alt="Portolio"/>
+                                <img src="img/projects/food-truck.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> Food truck</span>
                                 </div>
@@ -1229,7 +1229,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFourteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-4.jpg" alt="Portolio"/>
+                                <img src="img/projects/Octavia.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> OCTAVIA VUE ADMIN TEMPLATE</span>
                                 </div>
@@ -1269,7 +1269,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalFiveteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-5.jpg" alt="Portolio"/>
+                                <img src="img/projects/bonik.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> BONIK</span>
                                 </div>
@@ -1309,7 +1309,7 @@ const Portfolio = () => {
                                 className="direction-reveal__card"
                                 onClick={toggleModalSixteen}
                             >
-                                <img src="https://tunis.ibthemespro.com/img/projects/project-6.jpg" alt="Portolio"/>
+                                <img src="img/projects/xamin.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
                                     <span className="content-title"> XAMIN TEMPLATE</span>
                                 </div>

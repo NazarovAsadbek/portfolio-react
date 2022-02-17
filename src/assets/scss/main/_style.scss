@@ -69,9 +69,11 @@ body {
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
 }
+
 img {
   max-width: 100%;
 }
+
 hr.separator {
   border-top: 1px solid #252525;
   margin: 70px auto 55px;
@@ -85,6 +87,7 @@ hr.separator {
 .mb-30 {
   margin-bottom: 30px;
 }
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -299,6 +302,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     background: #fff;
   }
 }
+
 .custom-overlay.green {
   .icon {
     img {
@@ -306,32 +310,38 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     }
   }
 }
+
 .quotebox {
   position: relative;
   padding-left: 70px;
   margin-top: 35px;
   margin-bottom: 35px;
+
   .icon {
     position: absolute;
     left: 0;
     top: 10px;
+
     img {
       width: 40px;
       height: 40px;
       filter: invert(1);
     }
   }
+
   p {
     font-size: 17px;
     font-style: italic;
     margin-bottom: 23px;
   }
 }
+
 @media (max-width: 991px) {
   body.light {
     .header {
       background: #fff;
       box-shadow: 0 0px 47px #dedede;
+
       ul.icon-menu li.icon-box {
         background: #eee !important;
       }
@@ -349,6 +359,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     top: 31px;
   }
 }
+
 /*** Buttons ***/
 .button {
   overflow: hidden;
@@ -463,6 +474,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
     height: 100vh;
   }
 }
+
 .header {
   position: fixed;
   right: 30px;
@@ -491,15 +503,18 @@ body.light .header ul.icon-menu li.icon-box:hover i {
       display: flex;
       align-items: center;
       justify-content: space-around;
+
       li.icon-box {
         margin: 0 !important;
         width: 45px !important;
         height: 45px !important;
         background: #444 !important;
+
         i {
           top: 14px;
         }
       }
+
       h2 {
         display: none;
       }
@@ -876,6 +891,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  height: 100% !important;
   @media screen and (min-width: 1300px) {
     min-height: 229px;
     background: #ddd;
@@ -888,6 +904,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 .portfolio .grid figure img {
   display: block;
   position: relative;
+  height: 100% !important;
 }
 
 .portfolio .grid li a {
@@ -915,9 +932,11 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   border-radius: 10px;
   overflow: hidden;
   margin: 0;
+
   img {
     border-radius: 6px;
   }
+
   @media screen and (min-width: 1350px) {
     img {
       background: #ddd;
@@ -1037,6 +1056,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 .contact .main-content {
   padding-bottom: 85px;
 }
+
 /* Left Side */
 
 .contact .custom-span-contact {
@@ -1064,14 +1084,17 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   font-weight: 400;
   padding-bottom: 0;
 }
+
 .contact .custom-span-contact a {
   color: #fff;
   text-decoration: none;
   cursor: pointer !important;
 }
+
 body.light .contact .custom-span-contact a {
   color: #666;
 }
+
 .contact ul.social {
   margin-left: -5px;
   padding-top: 15px !important;
@@ -1094,6 +1117,7 @@ body.light .contact .custom-span-contact a {
   background: #2b2a2a;
   border-radius: 50%;
 }
+
 /* Form */
 .contact .contactform input[type="text"],
 .contact .contactform input[type="email"] {
@@ -1106,18 +1130,22 @@ body.light .contact .custom-span-contact a {
   outline: none !important;
   transition: 0.3s;
 }
+
 .contact .contactform .form-group {
   margin-bottom: 30px;
 }
+
 .contact {
   .container {
     padding-bottom: 60px;
   }
+
   @media screen and (min-width: 1920px) {
     .container {
       padding-bottom: 214px;
     }
   }
+
   .contactform textarea {
     border: 1px solid #111;
     background: #252525;
@@ -1135,12 +1163,14 @@ body.light .contact .custom-span-contact a {
 .contact .contactform .form-message {
   margin: 24px 0;
 }
+
 .contactform {
   padding-left: 30px;
   @media screen and (max-width: 991px) {
     padding-left: 0;
   }
 }
+
 .contact .contactform .output_message {
   display: block;
   color: #fff;
@@ -1280,6 +1310,7 @@ body.light .contact .custom-span-contact a {
     color: #eee;
     font-size: 13px;
   }
+
   .img-fluid {
     @media (min-width: 1350px) {
       background: #ddd;
@@ -1423,7 +1454,7 @@ body.light .contact .custom-span-contact a {
     z-index: 1;
     transform-origin: 5px 0;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
 
   #menuToggle > span:first-child {
@@ -1766,9 +1797,11 @@ body.light .contact .custom-span-contact a {
     margin-top: 35px !important;
   }
 }
+
 .invalid-feedback {
   display: block;
 }
+
 .tab-panel_list {
   overflow: hidden;
   @media screen and (max-width: 991px) {
@@ -1783,6 +1816,7 @@ body.light .contact .custom-span-contact a {
 // }
 .tab-panel_list > div {
   position: relative;
+
   &.home {
     @media screen and (max-width: 991px) {
       padding-left: 15px;
@@ -1799,6 +1833,7 @@ body.light .contact .custom-span-contact a {
     z-index: 4;
   }
 }
+
 body.light .tab-panel_list > div {
   &::after {
     background-color: #eee;
@@ -1819,9 +1854,11 @@ body.light .tab-panel_list > div {
     transform: translateY(100%);
   }
 }
+
 .about-list {
   display: flex;
   flex-wrap: wrap;
+
   li {
     flex: 0 0 50%;
     max-width: 50%;
@@ -1851,6 +1888,7 @@ body.light::-webkit-scrollbar-thumb {
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid #fff; /* creates padding around scroll thumb */
 }
+
 button:focus {
   outline: none !important;
 }
@@ -1859,6 +1897,7 @@ button:focus {
 .container {
   max-width: 1200px;
 }
+
 .row > * {
   padding-left: 15px;
   padding-right: 15px;
@@ -1867,9 +1906,11 @@ button:focus {
 .pr-2 {
   padding-right: 0.5rem !important;
 }
+
 .none #showSwitcher {
   display: none;
 }
+
 // this css fixed with yellow color other color does not work
 .portfolio .slideshow figcaption h3,
 .portfolio .slideshow a,
@@ -1877,6 +1918,7 @@ button:focus {
 .blog-post .meta i {
   color: #ffb400;
 }
+
 .box_inner.about {
   .pie,
   .c100 .bar,
@@ -1933,18 +1975,21 @@ button:focus {
     border: 0.08em solid #ffb400;
   }
 }
+
 .portfolio-tab-list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 10px !important;
+
   li {
     margin: 15px;
     margin-top: 0;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
+
     &:hover,
     &.react-tabs__tab--selected {
       color: #ffb400;
@@ -1960,11 +2005,13 @@ button:focus {
   position: relative;
   transform: translateY(5px);
 }
+
 .portfolio.professional .grid li figure:hover div span {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
 }
+
 .portfolio.professional .grid li figure div span {
   margin: 0;
   text-transform: uppercase;
@@ -1977,6 +2024,7 @@ button:focus {
   text-align: center;
   width: 100%;
 }
+
 .portfolio.professional {
   .grid figure {
     -webkit-transition: 0.3s;
@@ -1987,6 +2035,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+
     &::before {
       content: "";
       position: absolute;
@@ -2000,12 +2049,14 @@ button:focus {
       visibility: hidden;
       transition: 0.5s;
     }
+
     &:hover {
       &::before {
         opacity: 1;
         visibility: visible;
       }
     }
+
     @media screen and (min-width: 1300px) {
       min-height: 229px;
       background: #ddd;
@@ -2031,6 +2082,7 @@ button:focus {
   @media (max-width: 991px) {
     right: 15px;
   }
+
   a {
     color: #fff;
     display: block;
