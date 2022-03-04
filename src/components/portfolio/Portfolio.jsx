@@ -444,44 +444,6 @@ const Portfolio = () => {
                         {/* <!-- Portfolio Item Ends --> */}
 
                         {/* <!-- Portfolio Item Starts --> */}
-                        <li
-                            className="direction-reveal"
-                            data-aos="fade-right"
-                            data-aos-duration="1200"
-                            data-aos-delay="0"
-                        >
-                            <figure
-                                className="direction-reveal__card"
-                                onClick={toggleModalTen}
-                            >
-                                <img src="img/projects/telegramm.png" alt="Portolio"/>
-                                <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Telegram Profile</span>
-                                </div>
-                            </figure>
-
-                            {/* Start Telegram */}
-                            <Modal
-                                isOpen={isOpen10}
-                                onRequestClose={toggleModalTen}
-                                contentLabel="My dialog"
-                                className="custom-modal dark"
-                                overlayClassName="custom-overlay dark"
-                                closeTimeoutMS={500}
-                            >
-                                <div>
-                                    <button className="close-modal" onClick={toggleModalSeven}>
-                                        toggleModalTen
-                                    </button>
-                                    {/* End close icon */}
-
-                                    <div className="box_inner portfolio">
-                                        <Telegram/>
-                                    </div>
-                                </div>
-                            </Modal>
-                            {/* End  Telegram */}
-                        </li>
 
                         <li
                             className="direction-reveal"
@@ -574,7 +536,7 @@ const Portfolio = () => {
                             >
                                 <img src="img/projects/food-truck.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Food truck</span>
+                                    <span className="content-title"> Food truck template</span>
                                 </div>
                             </figure>
 
@@ -654,7 +616,7 @@ const Portfolio = () => {
                             >
                                 <img src="img/projects/bonik.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> BONIK</span>
+                                    <span className="content-title"> BONIK TEMPLATE</span>
                                 </div>
                             </figure>
 
@@ -1099,45 +1061,6 @@ const Portfolio = () => {
                 <TabPanel>
                     <ul className="row grid justify-content-center">
                         {/* <!-- Portfolio Item Starts --> */}
-                        <li
-                            className="direction-reveal"
-                            data-aos="fade-right"
-                            data-aos-duration="1200"
-                            data-aos-delay="0"
-                        >
-                            <figure
-                                className="direction-reveal__card"
-                                onClick={toggleModalTen}
-                            >
-                                <img src="img/projects/telegramm.png" alt="Portolio"/>
-                                <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Telegram Profile</span>
-                                </div>
-                            </figure>
-
-                            {/* Start Telegram */}
-                            <Modal
-                                isOpen={isOpen10}
-                                onRequestClose={toggleModalTen}
-                                contentLabel="My dialog"
-                                className="custom-modal dark"
-                                overlayClassName="custom-overlay dark"
-                                closeTimeoutMS={500}
-                            >
-                                <div>
-                                    <button className="close-modal" onClick={toggleModalSeven}>
-                                        toggleModalTen
-                                    </button>
-                                    {/* End close icon */}
-
-                                    <div className="box_inner portfolio">
-                                        <Telegram/>
-                                    </div>
-                                </div>
-                            </Modal>
-                            {/* End  Telegram */}
-                        </li>
-
 
                         <li
                             className="direction-reveal"
@@ -1191,7 +1114,7 @@ const Portfolio = () => {
                             >
                                 <img src="img/projects/food-truck.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> Food truck</span>
+                                    <span className="content-title"> Food truck Template</span>
                                 </div>
                             </figure>
 
@@ -1271,7 +1194,7 @@ const Portfolio = () => {
                             >
                                 <img src="img/projects/bonik.png" alt="Portolio"/>
                                 <div className=" hover-content-wrapper">
-                                    <span className="content-title"> BONIK</span>
+                                    <span className="content-title"> BONIK TEMPLATE</span>
                                 </div>
                             </figure>
 
