@@ -34,11 +34,11 @@ const SelloUz = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://nazarov-asadbek.uz/"
+                  href="https://css.nazarov-asadbek.uz/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  nazarov-asadbek.uz
+                  css.nazarov-asadbek.uz
                 </a>
               </span>
             </div>
