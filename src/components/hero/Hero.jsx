@@ -6,7 +6,7 @@ const heroContent = {
     heroImage: "img/hero/dark.jpg",
     heroMobileImage: "img-mobile",
     heroTitleName: "nazarov asadbek",
-    heroDesignation: "web designer",
+    heroDesignation: "web developer",
     heroDescriptions: `I'm Asadbek from Uzbekistan, and I do content on Design and Development. I really enjoy learning languages and frameworks like Angular, Vue and React, as well as working with Javascript. I also enjoy wireframing, ui, ux, and design in general.`,
     heroBtn: "more about me",
 };
@@ -21,18 +21,20 @@ const Hero = () => {
     return (<>
         <div className="row home-details-container align-items-center">
             <div
-                className="col-lg-4 bg position-fixed d-none d-lg-block"
-                style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage})`,
-                }}
-            ></div>
+                className="col-lg-4 position-fixed d-none d-lg-block"
+            >
+                {/*className="col-lg-4 bg position-fixed d-none d-lg-block"*/}
+                {/*    style={{*/}
+                {/*    backgroundImage: `url(${process.env.PUBLIC_URL + heroContent.heroImage})`,*/}
+                {/*}}*/}
+            </div>
             <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
                 <div>
-                    <img
-                        src={`img/hero/${heroContent.heroMobileImage}.jpg`}
-                        className="img-fluid main-img-mobile d-sm-block d-lg-none"
-                        alt="hero man"
-                    />
+                    {/*<img*/}
+                    {/*    src={`img/hero/${heroContent.heroMobileImage}.jpg`}*/}
+                    {/*    className="img-fluid main-img-mobile d-sm-block d-lg-none"*/}
+                    {/*    alt="hero man"*/}
+                    {/*/>*/}
                     <h1 className="text-uppercase poppins-font">
                         I'm {heroContent.heroTitleName}
                         <span>{heroContent.heroDesignation}</span>
