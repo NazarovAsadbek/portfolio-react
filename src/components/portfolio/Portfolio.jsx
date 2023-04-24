@@ -20,6 +20,7 @@ const Portfolio = () => {
             <Tab>ALL</Tab>
             <Tab>COMMERCIAL PROJECTS</Tab>
             <Tab>PET PROJECTS</Tab>
+            <Tab>PROJECTS OF MY STUDENT</Tab>
           </TabList>
 
           <div className="container">
@@ -51,7 +52,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("logo")).map(
+                {PortfolioData.filter((item) => item.tag.includes("COMMERCIAL")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
@@ -79,7 +80,35 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("video")).map(
+                {PortfolioData.filter((item) => item.tag.includes("PET")).map(
+                  (item) => {
+                    const { id, type, image, delayAnimation } = item;
+                    return (
+                      <div
+                        key={id}
+                        data-aos="fade-right"
+                        data-aos-delay={delayAnimation}
+                      >
+                        <div
+                          className="tab-content"
+                          onClick={() => handleModal(id)}
+                        >
+                          <img src={image} alt="portfolio project demo" />
+                          <h3>
+                            <span className="conent-title">{type}</span>
+                          </h3>
+                        </div>
+                        {/* {getModal && <Modal props={modalId} />} */}
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+            </TabPanel>
+
+            <TabPanel>
+              <div className="tab-container">
+                {PortfolioData.filter((item) => item.tag.includes("student")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (

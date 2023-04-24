@@ -10,6 +10,12 @@ import zirratbank from "../../assets/img/portfolio/ziraatbank-uz.png";
 import instantZiraatBank from "../../assets/img/portfolio/ziraatbank-instant.png";
 import adminZirratbank from "../../assets/img/portfolio/ziraatbank-admin.png";
 import confidentialProject from "../../assets/img/portfolio/confidential-project.webp";
+import weatherApp from "../../assets/img/portfolio/weather-app.jpg";
+import timerApp from "../../assets/img/portfolio/timer-app.jpg";
+import converterApp from "../../assets/img/portfolio/converter.jpg";
+import tgAssistantBot from "../../assets/img/portfolio/th-assitent-bot.jpg";
+import awesomeCSSElements from "../../assets/img/portfolio/awesome-css-elements.png";
+import habitTracker from "../../assets/img/portfolio/habit-tracker.jpg";
 
 const PortfolioData = [
   {
@@ -203,7 +209,103 @@ const PortfolioData = [
         link: "https://web.abv.uz/ru/login",
       },
     ],
-  }
+  },
+  {
+    id: 13,
+    type: "WEATHER APP",
+    image: weatherApp,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "ANDROID | IOS APP",
+        client: "ME",
+        language: "React Native, EXPO",
+        preview: "-",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 14,
+    type: "TIMER APP",
+    image: timerApp,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "ANDROID | IOS APP",
+        client: "ME",
+        language: "React Native, EXPO",
+        preview: "-",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 15,
+    type: "Image converter",
+    image: converterApp,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Web Application",
+        client: "ME",
+        language: "Nest.js, React",
+        preview: "nazarovasadbek.uz",
+        link: "http://155.133.23.97:3001/",
+      },
+    ],
+  },
+  {
+    id: 16,
+    type: "TG ASSISTANT BOT",
+    image: tgAssistantBot,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "TELEGRAM BOT",
+        client: "ME",
+        language: "Nest.js",
+        preview: "assistantForMoronsBot",
+        link: "https://t.me/assistantForMoronsBot",
+      },
+    ],
+  },
+  {
+    id: 17,
+    type: "AWESOME CSS ELEMENTS",
+    image: awesomeCSSElements,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "AWESOME CSS ELEMENTS",
+        client: "ME",
+        language: "Vue.js, HTML, SCSS, VUETIFY, BOOTSTRAP, THREE.JS",
+        preview: "css.nazarov-asadbek.uz",
+        link: "https://css.nazarov-asadbek.uz/",
+      },
+    ],
+  },
+  {
+    id: 18,
+    type: "HABIT TRACKER",
+    image: habitTracker,
+    tag: ["PET"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "HABIT TRACKER",
+        client: "ME",
+        language: "HTML, CSS, VANILLA JAVASCRIPT",
+        preview: "-",
+        link: "-",
+      },
+    ],
+  },
 ];
 
 export default PortfolioData;
