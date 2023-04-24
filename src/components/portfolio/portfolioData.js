@@ -1,158 +1,209 @@
-import Image1 from "../../assets/img/portfolio/project-1.jpg";
-import Image2 from "../../assets/img/portfolio/project-2.jpg";
-import Image3 from "../../assets/img/portfolio/project-3.jpg";
-import Image4 from "../../assets/img/portfolio/project-4.jpg";
-import Image5 from "../../assets/img/portfolio/project-5.jpg";
-import Image6 from "../../assets/img/portfolio/project-6.jpg";
-import Image7 from "../../assets/img/portfolio/project-7.jpg";
-import Image8 from "../../assets/img/portfolio/project-8.jpg";
-import Image9 from "../../assets/img/portfolio/project-9.jpg";
+import selfiestore from "../../assets/img/portfolio/selfiestore.png";
+import adminSelfiestore from "../../assets/img/portfolio/admin-selfiestore.png";
+import sello from "../../assets/img/portfolio/sello-uz.png";
+import logisticsSello from "../../assets/img/portfolio/sello-logistics.png";
+import partenrsSello from "../../assets/img/portfolio/sello-partners.png";
+import tenge from "../../assets/img/portfolio/tenge-uz.png";
+import physicalTenge from "../../assets/img/portfolio/tenge-physical.png";
+import juridicTenge from "../../assets/img/portfolio/tenge-jurdic.png";
+import zirratbank from "../../assets/img/portfolio/ziraatbank-uz.png";
+import instantZiraatBank from "../../assets/img/portfolio/ziraatbank-instant.png";
+import adminZirratbank from "../../assets/img/portfolio/ziraatbank-admin.png";
+import confidentialProject from "../../assets/img/portfolio/confidential-project.webp";
 
 const PortfolioData = [
   {
     id: 1,
-    type: "mockup project",
-    image: Image1,
-    tag: ["mockup"],
+    type: "Selfiestore",
+    image: selfiestore,
+    tag: ["COMMERCIAL"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
+        project: "Web Application",
+        client: "Selfie store",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java, Docker & Ansible",
+        preview: "selfiestore.uz",
+        link: "http://selfiestore.uz/",
       },
     ],
   },
   {
     id: 2,
-    type: "youtube project",
-    image: Image2,
-    tag: ["video"],
-    delayAnimation: "100",
+    type: "Selfie store admin panel",
+    image: adminSelfiestore,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Web Application",
+        client: "Selfie store",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java, Docker & Ansible",
+        preview: "admin.selfiestore.uz",
+        link: "http://admin.selfiestore.uz/",
       },
     ],
   },
   {
     id: 3,
-    type: "slider project",
-    image: Image3,
-    tag: [],
-    delayAnimation: "200",
+    type: "Sello marketplace",
+    image: sello,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: " HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com",
+        project: "Web Application",
+        client: "Sello, OOO TUNE CONSULTING",
+        language: "HTML, SCSS, Typescript, Next.js, Bootstrap, Java, PHP",
+        preview: "sello.uz",
+        link: "https://sello.uz/",
       },
     ],
   },
   {
     id: 4,
-    type: "local project",
-    image: Image4,
-    tag: ["logo", "video"],
+    type: "Sello logistics",
+    image: logisticsSello,
+    tag: ["COMMERCIAL"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Web Application",
+        client: "Sello, OOO TUNE CONSULTING",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "logistics.sello.uz",
+        link: "https://logistics.sello.uz/login",
       },
     ],
   },
   {
     id: 5,
-    type: "saas project",
-    image: Image5,
-    tag: ["logo"],
-    delayAnimation: "100",
+    type: "Sello merchants",
+    image: partenrsSello,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "0",
     modalDetails: [
       {
         project: "Web Application",
-        client: "Themeforest",
-        language: "HTML, CSS, ReactJS",
-        preview: "www.envato.com",
-        link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
+        client: "Sello, OOO TUNE CONSULTING",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "partners.sello.uz",
+        link: "https://partners.sello.uz/login",
       },
     ],
   },
   {
     id: 6,
-    type: "mockup project",
-    image: Image6,
-    tag: ["logo", "mockup"],
-    delayAnimation: "200",
+    type: "tenge",
+    image: tenge,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Themeforest",
-        language: "HTML, CSS, Javascript",
-        preview: "www.pexels.com",
-        link: "https://www.pexels.com",
+        project: "Web Application",
+        client: "TENGE BANK (Uzbekistan Branch)",
+        language: "HTML, SCSS, Typescript, Angular, Java",
+        preview: "tengebank.uz",
+        link: "https://tengebank.uz/ru/business",
       },
     ],
   },
   {
     id: 7,
-    type: "facebook project",
-    image: Image7,
-    tag: ["logo"],
+    type: "Tenge physical admin panel",
+    image: physicalTenge,
+    tag: ["COMMERCIAL"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Facebook",
-        language: "HTML, CSS, Javascript",
-        preview: "www.facebook.com",
-        link: "https://www.facebook.com/ibthemes",
+        project: "Web Application",
+        client: "TENGE BANK (Uzbekistan Branch)",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "tengebank.uz",
+        link: "https://tengebank.uz/ru/business",
       },
     ],
   },
   {
     id: 8,
-    type: "dribble project",
-    image: Image8,
-    tag: ["graphic design"],
-    delayAnimation: "100",
+    type: "Tenge juridic admin panel",
+    image: juridicTenge,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Dribbble",
-        language: "HTML, CSS, Javascript",
-        preview: "www.dribbble.com",
-        link: "https://dribbble.com/ib-themes",
+        project: "Web Application",
+        client: "TENGE BANK (Uzbekistan Branch)",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "tengebank.uz",
+        link: "https://tengebank.uz/ru/business",
       },
     ],
   },
   {
     id: 9,
-    type: "behence project",
-    image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
+    type: "Ziraat Bank",
+    image: zirratbank,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "100",
     modalDetails: [
       {
-        project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
+        project: "Web Application",
+        client: "Ziraat Bank (Uzbekistan Branch)",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "ziraatbank.uz",
+        link: "https://bireysel.ziraatbank.uz/auth/login",
       },
     ],
   },
+  {
+    id: 10,
+    type: "Ziraat Bank instant payment",
+    image: instantZiraatBank,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "100",
+    modalDetails: [
+      {
+        project: "Web Application",
+        client: "Ziraat Bank (Uzbekistan Branch)",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "ziraatbank.uz",
+        link: "https://bireysel.ziraatbank.uz/auth/login",
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: "Ziraat Bank admin panel",
+    image: adminZirratbank,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "100",
+    modalDetails: [
+      {
+        project: "Web Application",
+        client: "Ziraat Bank (Uzbekistan Branch)",
+        language: "HTML, SCSS, Javascript, Nuxt.js, Java",
+        preview: "admin.ziraatbank.uz",
+        link: "https://bireysel.ziraatbank.uz:9999/",
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "ABV",
+    image: confidentialProject,
+    tag: ["COMMERCIAL"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "Web Application",
+        client: "OOO CROWE TAC",
+        language: "HTML, SCSS, Javascript, Nuxt.js, C#",
+        preview: "abv.uz",
+        link: "https://web.abv.uz/ru/login",
+      },
+    ],
+  }
 ];
 
 export default PortfolioData;
