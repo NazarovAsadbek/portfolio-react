@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  crowe-cloud:
+    build:
+      context: .
+      dockerfile: ./deployment/Dockerfile
+    container_name: crowe-cloud
+    restart: always
+    ports:
+      - "3000:3000"
+    command: "yarn start"
+    networks:
+      - web-network
