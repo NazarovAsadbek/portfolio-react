@@ -7,8 +7,7 @@ import blogQuote from "../../assets/img/blog/quote.svg";
 Modal.setAppElement("#root");
 
 const Blog = () => {
-  const { singleData, isOpen, setIsOpen, blogsData, handleBlogsData } =
-    UseData();
+  const { singleData, isOpen, setIsOpen, blogsData, handleBlogsData } = UseData();
   const handleModle = (id) => {
     handleBlogsData(id);
   };
