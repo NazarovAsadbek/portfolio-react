@@ -1,14 +1,25 @@
-FROM node:16.15.0-alpine
+FROM node:18.16.0-alpine AS build
 
-RUN mkdir -p /var/www/react-portfolio/
-WORKDIR /var/www/react-portfolio/
+WORKDIR /app
 
-COPY ./package*.json ./
+COPY package*.json ./
+
 RUN yarn
 
-COPY .. .
+COPY . .
+
 RUN yarn build
 
-EXPOSE 3000
+FROM alpine:latest
 
-CMD [ "yarn", "start"]
+RUN apk add --no-cache rsync
+
+WORKDIR /app
+
+COPY --from=build /app/build /app/build
+
+COPY entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
