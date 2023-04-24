@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImg from "../../assets/img/hero/dark.jpg";
-import heroImgMobile from "../../assets/img/hero/img-mobile.jpg";
+import heroImg from "../../assets/img/hero/my_photo.webp";
+import heroImgMobile from "../../assets/img/hero/my_photo_mobile.webp";
 import cancelImg from "../../assets/img/cancel.svg";
 import Index from "../../components/about/index";
 
@@ -10,10 +10,7 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "Nazarov Asadbek",
   heroDesignation: "Frontend engineer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDescriptions: `My name is Asadbek, and I am a dedicated professional hailing from the beautiful country of Uzbekistan. I specialize in creating captivating digital experiences through my work in design and development. With a keen interest in expanding my horizons, I have devoted myself to mastering a diverse range of languages and frameworks, which has allowed me to excel in my field.`,
   heroBtn: "more about me",
 };
 
