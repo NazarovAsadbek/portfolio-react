@@ -16,6 +16,7 @@ import converterApp from "../../assets/img/portfolio/converter.jpg";
 import tgAssistantBot from "../../assets/img/portfolio/th-assitent-bot.jpg";
 import awesomeCSSElements from "../../assets/img/portfolio/awesome-css-elements.png";
 import habitTracker from "../../assets/img/portfolio/habit-tracker.jpg";
+import guitar from "../../assets/img/portfolio/guitar.jpg";
 
 const PortfolioData = [
   {
@@ -303,6 +304,22 @@ const PortfolioData = [
         language: "HTML, CSS, VANILLA JAVASCRIPT",
         preview: "-",
         link: "-",
+      },
+    ],
+  },
+  {
+    id: 19,
+    type: "LANDING FOR GUITAR PLAYER",
+    image: guitar,
+    tag: ["STUDENT"],
+    delayAnimation: "200",
+    modalDetails: [
+      {
+        project: "LANDING FOR GUITAR PLAYER",
+        client: "ME",
+        language: "HTML, CSS, VANILLA JAVASCRIPT",
+        preview: "guitar-player",
+        link: "http://the-last-version-of-guitar-man.surge.sh/",
       },
     ],
   },

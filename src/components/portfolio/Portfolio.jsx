@@ -108,7 +108,7 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("student")).map(
+                {PortfolioData.filter((item) => item.tag.includes("STUDENT")).map(
                   (item) => {
                     const { id, type, image, delayAnimation } = item;
                     return (
